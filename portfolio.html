@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Portfolio</a>
+            <a href="Contact.html">Contact Me</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>My Projects</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/Flipzterz/Capstone-2025">PB&J</a> - A 2D platformer 2-player game about peanut butter and jelly.
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1eS99ZPTALDQH2clCwbAs7HeuLbEYVvYI/view?usp=drive_link">Parkour Duck Game</a> - A single-player parkour game about a duck doing parkour (multiplayer work in progress).
+                </li>
+            </ul>
+            <h2>Gallery</h2>
+            <div class="image-modal" id="imageModal">
+                <span class="close" id="closeModal">&times;</span>
+                <img class="modal-content" id="modalImage" alt="Enlarged Image">
+            </div>
+            
+            <ul class="Gallery">
+                <li><img src="Images/PB&J.png" alt="Project 1 Screenshot" class="enlargeable"></li>
+                <li><img src="Images/DuckParkour.png" alt="Project 2 Screenshot" class="enlargeable"></li>
+            </ul>
+                    
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Colton Sugar. All rights reserved.</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
